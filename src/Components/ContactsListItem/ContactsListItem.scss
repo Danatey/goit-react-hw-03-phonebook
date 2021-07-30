@@ -1,0 +1,17 @@
+.contact-item {
+  font-size: 20px;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.contact-button {
+  margin-left: 10px;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color: #fff;
+
+  &:active {
+    background-color: blue;
+  }
+}
